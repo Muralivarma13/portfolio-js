@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--========Meta Tags SEO======-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        <!--========Title===== -->
+        <title>Portfolio</title>
+
+        <!--========Site Icon===== -->
+        <link rel="shortcut icon" type="portfolio.png" href="./img/portfolio.png">
+
+        <!--========Stylesheet===== -->
+        <link rel="stylesheet" href='./style.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap">
+
+        <!--========BoxIcons===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========TailwindCSS===== -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--========TypedJS===== -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <!--========JSON Script======-->
+
+    </head>
+    <body>
+        <!-- =========================================NavBar========================================= -->
+        <header class="header" id="header">
+            <a class="logo" href="">Murali Varma</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
+            <nav class="navbar" id="myLinks">
+                <a href="#about" style="--i:1" class="active" >About</a>
+                <a href="#Skills" style="--i:3">Skills</a>
+                <a href="#Projects" style="--i:4">Projects</a>
+                <a href="#certificates" style="--i:5">Certificates</a>
+                <a href="https://drive.google.com/file/d/1jBRemEDHuzGP7AyNc-YelX28VAWalvR9/view?usp=sharing" style="--i:6">Resume</a>
+                <a href="#Contact" style="--i:7">Contact</a>
+            </nav>
+        </header>
+
+        <!-- =========================================about========================================= -->
+        <section class="about" id="about">
+            <div class="about-content">
+                
+                <div class="img">
+                    <img src="img/murali.jpg" class="responsive" alt="Name">
+                </div>
+
+
+                <h1>Hey I'm</h1>
+                <h1>Murali Varma</h1>
+                <h4 style="--i:6"> <span class="text"></span></h4><br>
+                <p>I am an MCA (Master of Computer Applications) fresher who is deeply passionate about software development and full-stack web development. I have practical experience working on developing responsive and user-friendly web applications based on HTML, CSS, JavaScript, React.js, Python, Django, and MySQL. It gives me immense pleasure to solve practical problems using efficient code, and I keep improving my technical abilities. As an aspiring software developer, I look forward to being part of some of the most exciting projects.</p>
+                <h4 style="--i:6"> <span class="text"></span></h4>
+                
+                
+
+                <div class="about-sci">
+                    <a href="https://www.linkedin.com/in/murali-tirumani-5165ba370/"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Muralivarma13"style="--i:8" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href=""style="--i:9" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    
+                </div>
+                <a href="#Contact" style="--i:11" class="btn-box" target="_blank">Hire Me</a>
+            </div>
+        </section>
+
+        
+        <!-- =========================================Skills========================================= -->
+<section class="Skills" id="Skills">
+    <h2 class="reveal">Skills</h2>
+
+    <div class="skill-groups-wrapper">
+        <!-- Frontend Development -->
+        <div class="skill-group reveal">
+            <h3>Front-end Development</h3>
+            <div class="skill-container">
+                <div class="skill-button"><img src="img/html-5.png" alt="HTML Logo">HTML</div>
+                <div class="skill-button"><img src="img/css-3.png" alt="CSS Logo">CSS</div>
+                <div class="skill-button"><img src="img/js.png" alt="JavaScript Logo">JavaScript</div>
+                <div class="skill-button"><img src="img/react.png" alt="React JS Logo">React JS</div>
+                <div class="skill-button"><img src="img/bootstrap.png" alt="Bootstrap Logo">Bootstrap</div>
+            </div>
+        </div>
+
+        <!-- Backend Development -->
+        <div class="skill-group reveal">
+            <h3>Back-end Development</h3>
+            <div class="skill-container">
+                <div class="skill-button"><img src="img/django.png" alt="Django Logo">Django</div>
+                <div class="skill-button"><img src="img/mysql.png" alt="MySQL Logo">MySQL</div>
+            </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skill-group reveal">
+            <h3>Programming Languages</h3>
+            <div class="skill-container">
+                <div class="skill-button"><img src="img/python.png" alt="Python Logo">Python</div>
+                <div class="skill-button"><img src="img/csharp.png" alt="C# Logo">C#</div>
+            </div>
+        </div>
+
+        <!-- Miscellaneous -->
+        <div class="skill-group reveal">
+            <h3>Tools</h3>
+            <div class="skill-container">
+                <div class="skill-button"><img src="img/vscode.png" alt="Visual Studio Logo">Visual Studio</div>
+                <div class="skill-button"><img src="img/git.png" alt="Git Logo">Git</div>
+                <div class="skill-button"><img src="img/github.png" alt="GitHub Logo">GitHub</div>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+       <!-- Updated Project Section HTML -->
+<section id="Projects" class="prj reveal">
+    <div class="featured-projects-box reveal">
+        <h1>Projects</h1>
+        <div class="separator"></div>
+
+          <!-- Project 1: Ticket Booking Website -->
+        <div class="project project1 reveal">
+            <div class="project-details-box">
+                <div class="project-main-info">
+                    
+                    <h3>Bus Ticket Bokking App</h3>
+                    <p>
+                        Built a Bus Ticket Booking System 🚌 using React.js ⚛️ and Django , with features like bus search 🔍, seat selection 💺, and online booking ✅. Connected the frontend and backend using REST APIs to deliver a fast and user-friendly booking experience 🚀.
+
+                     </p>
+                    <div class="project-icons">
+                        <a href="https://fullstack-project-frontend-eight.vercel.app/" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-tools">
+                    <p>React.js, Django</p>
+                </div>
+            </div>
+            <div class="project-image-box">
+                <a class="project-img-link">
+                    <img src="img/ticket book.png" alt="Ticket Booking Website">
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 2: E commerce Website -->
+        <div class="project project1 reveal">
+            <div class="project-details-box">
+                <div class="project-main-info">
+                    
+                    <h3>Simple Mart</h3>
+                    <p>
+                        Developed a Simple Mart 🛒 using React.js ⚛️, allowing users to browse products 📦, view product details , and manage their shopping cart 🛍️. Used React Hooks 🎣, React Router 🛣️, and dummy json 🌐to build a fast, responsive, and user-friendly application ✨.
+
+                     </p>
+                    <div class="project-icons">
+                        <a href="https://simple-mart-react-project.vercel.app/" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-tools">
+                    <p>React.js</p>
+                </div>
+            </div>
+            <div class="project-image-box">
+                <a class="project-img-link">
+                    <img src="img/simple mart.png" alt="E commercec:\Users\tmura\Downloads\c#.jpeg Website">
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 3: Counter App -->
+        <div class="project project2 reveal">
+            <div class="project-details-box">
+                <div class="project-main-info">
+                    
+                    <h3>Counter App</h3>
+                    <p> 
+                        "Developed a React.js Counter App ⚛️ featuring Increment ➕, Decrement ➖, and Reset 🔄 functionality using the useState Hook. Designed a clean, responsive UI 🎨 to showcase React fundamentals and state management 💡.
+"
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://counterapp-orpin-beta.vercel.app/" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-tools">
+                    <p>React.js</p>
+                </div>
+            </div>
+            <div class="project-image-box">
+                <a class="project-img-link">
+                    <img src="img/counterapp.png" alt="Counter App">
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 4: Weather App -->
+        <div class="project project3 reveal">
+            <div class="project-details-box">
+                <div class="project-main-info">
+                    
+                    <h3>Weather App</h3>
+                    <p>
+                        Built a dynamic weather app 🌞 using HTML, CSS, and JavaScript, 
+                        providing real-time weather data ⛅️ and interactive features like location search 🔍 and unit conversion.
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://muralivarma13.github.io/weather-app-JS/" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-tools">
+                    <p>HTML, CSS, JavaScript, API</p>
+                </div>
+            </div>
+            <div class="project-image-box">
+                <a class="project-img-link">
+                    <img src="img/weather.png" alt="Weather App">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+      <section class="Certificates" id="certificates">
+    <div class="wrapper">
+        <h1>Certificates</h1>
+        <div class="content-box">
+            <div class="card reveal">
+                <h2>AWS Cloud Practitioner Essential  Course</h2><br>
+                <h3>Issued by aws & simplilearn</h3>
+                <button onclick="showCertificate('aws')">View Certificate</button>
+            </div>
+            <div class="card reveal">
+                <h2>Artificial Intelligence Fundamentals</h2><br>
+                <h3>Issued by IBM SkillsBuild</h3>
+                <button onclick="showCertificate('ibmskils')">View Certificate</button>
+            </div>
+            <div class="card reveal">
+                <h2>Agentic AI Certfied Foundations Associate</h2><br>
+                <h3>Issued by ORACLE University</h3>
+                <button onclick="showCertificate('oracle')">View Certificate</button>
+            </div>
+            <div class="card reveal">
+                <h2>Internship Certificate - AI/ML</h2><br>
+                <h3>Issued by V Cube</h3>
+                <button onclick="showCertificate('internshipai')">View Certificate</button>
+            </div>
+            <div class="card reveal">
+                <h2>Introduction to AI Literacy</h2><br>
+                <h3>Issued by SkillsBuild</h3>
+                <button onclick="showCertificate('literacy')">View Certificate</button>
+            </div>
+            <div class="card reveal">
+                <h2>Power Bi For Bigenars</h2><br>
+                <h3>Issued by Simplilearn</h3>
+                <button onclick="showCertificate('powerbi')">View Certificate</button>
+            </div>
+
+             <div class="card reveal">
+                <h2>Complaint Management System</h2><br>
+                <h3>Issued by V Cube</h3>
+                <button onclick="showCertificate('internship')">View Certificate</button>
+            </div>
+           
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for displaying large certificates -->
+    <div id="certificateModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="certificateImg">
+    </div>
+</section>
+
+    
+<!--====================== Contact =============================== -->
+<section class="contacts" id="Contact">
+    <div class="contact-text reveal">
+      <h2>Contact <span>Me</span></h2>
+      <center><h4>Get in Touch</h4></center>
+      <form action="https://formspree.io/f/xkgjqppq" method="POST" class="contact-form">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+        </div>
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+        </div>
+        <div class="input-box">
+          <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="success-message" style="display: none; color: whitesmoke;">Message sent successfully!</p>
+      </form>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/murali-tirumani-5165ba370/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+             <a href="https://github.com/Muralivarma13" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="" target="_blank"><i class='bx bx-envelope'></i></a>
+        <a href="" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+      <div class="last-text">
+        <p>Let's connect and create something impactful!✨<br><br>
+            Urs Murali Varma❤️
+          </p>
+      </div>
+    </div>
+  </section>
+        <!--====================== Go Top Icon =============================== -->
+        <a href="#about" class="top"><i class='bx bx-up-arrow-alt' ></i> </a>
+
+        <!--========Scripts===== -->
+        <script src="./script.js"></script>
+
+        
+
+    </body>  
+</html>
