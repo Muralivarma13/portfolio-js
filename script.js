@@ -126,6 +126,7 @@ function showCertificate(id) {
         literacy: "img/literacy.png",
         powerbi: "img/powerbi.png",
         internship: "img/internship.png",
+        azure:"img/azure.png",
         
     };
 
